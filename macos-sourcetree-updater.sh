@@ -14,7 +14,7 @@ if [[ -d /Applications/Sourcetree.app ]]
  then 
 rm -rf /Applications/Sourcetree.app
 else 
-sleep 1
+exit 0
 fi 
 unzip $arch -d /Applications/ >/dev/null
 ls -la /Applications
